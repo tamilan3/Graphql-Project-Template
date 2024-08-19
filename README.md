@@ -28,7 +28,7 @@ This repository contains a Cookiecutter template for generating a [Django](https
    Use Cookiecutter to generate your project from this template:
 
    
-   cookiecutter https://github.com/yourusername/cookiecutter-django-graphql.git
+   cookiecutter https://github.com/tamilan3/Graphql-Project-Template.git
    
 
 3. **Set up the project:**
