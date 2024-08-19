@@ -1,4 +1,9 @@
 {
-    "app_name": "APP NAME",
-    "project_name": "YOUR PROJECT"
-  }
+  "project_name": "MyGraphQLProject",
+  "app_name": "mygraphqlapp",
+  "author_name": "INPATHTAMILAN",
+  "description": "A Django project with GraphQL integration",
+  "django_version": "5.0.6",
+  "python_version": "3.11",
+  "env":"local"
+}
