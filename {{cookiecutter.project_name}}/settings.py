@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myappapp',
+    '{{cookiecutter.app_name}}',
     'graphene_django',
     "django_filters",
     'graphql_jwt'
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 GRAPHENE = {
-    'SCHEMA': 'myappapp.schemas.schema.schema',  # Where your Graphene schema lives
+    'SCHEMA': '{{cookiecutter.app_name}}.schemas.schema.schema',  # Where your Graphene schema lives
     'RELAY_CONNECTION_ENFORCE_FIRST_OR_LAST': False,
     'RELAY_CONNECTION_MAX_LIMIT': 100,
     'MIDDLEWARE': [
